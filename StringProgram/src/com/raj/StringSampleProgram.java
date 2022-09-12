@@ -7,7 +7,9 @@ public class StringSampleProgram {
 	}
 	
 	public static void reverse(String str) {
+		
 		System.out.println("String Before Reverse:"+str);
+		
 		char[] strArray = str.toCharArray();
 		for(int i=0;i<str.length()/2;i++) {
 			char ch = strArray[i];
